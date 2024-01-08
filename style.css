@@ -1,0 +1,106 @@
+/* Reset de estilos y estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+  background-image:url('img/wonderDegradado1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  text-align: center;/*titulo en el centro de la pantalla*/
+  width: 100%;
+  z-index: 1;
+}
+
+header h1{
+  color: #8C0001; /*color letra*/
+  padding: 2px; /*espacio entre el padding y texto*/
+  display: inline-block; /*para que el borde solo este dentro del texto*/
+  font-size: 80px; 
+  font-family: 'Nombre de tu fuente', fantasy;
+  padding: 1px;
+  border: 1px;
+  margin: 1px;
+}
+.main-nav {
+  background-color: #0C2C5D; 
+}
+
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 0;
+}
+
+.main-nav a {
+  display: block;
+  padding: 20px 80px;
+  color: white; 
+  text-decoration: none;
+  font-size: 20px; 
+}
+
+.main-nav a:hover {
+  background-color: #333; 
+}
+
+section {
+  padding: 20px; 
+}
+
+#biografia article {
+  width: 60%; 
+  float: left; 
+  margin-right: 20px; 
+}
+
+#biografia img {
+  width: 30%; 
+  float: right; 
+}
+
+#biografia{
+  background-image:url('img/wonderDegradado2.jpg'); /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  z-index: 1;
+}
+
+#galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#galeria {
+  background-image: url('img/wonder15.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white; 
+}
+
+#galeria h2,
+#galeria h3 {
+  color: black;
+  font-size: 26px; 
+
+}
+
+#galeria h2 {
+  width: 100%; 
+  font-size: 30px; 
+
+}
+
+#galeria img {
+  width: 48%; 
+  margin-bottom: 10px; 
+  font-size: 30px; 
+}
